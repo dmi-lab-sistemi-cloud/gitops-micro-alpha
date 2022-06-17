@@ -41,7 +41,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: built-jar
-          path: target/
+          path: tmp/
 
       - name: Log into Docker Hub registry
         uses: docker/login-action@v2
