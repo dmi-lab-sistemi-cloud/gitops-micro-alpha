@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MicroAlphaController {
 	@GetMapping("/")
 	public String hello() {
-		return "<h1>GO LIVE Hello from MicroApha! v2</h1>\n";
+		return "<h1>GO LIVE Hello from MicroApha! v3</h1>\n";
 	}
 }
